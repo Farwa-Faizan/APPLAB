@@ -1,0 +1,33 @@
+@use '../custom' as *;
+
+.nemo{
+    p{
+        font-size: 1.5rem;
+        color: $white;
+        font-weight: bold;
+
+	}
+	span{
+		color:$peela;
+	}
+}
+.footer{
+    background: $footer;
+    padding-top: 1rem;
+}
+.ff{
+    color: $gray-400;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.footer .nemo i {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: $gray-400;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color:$gray-600 !important;
+}

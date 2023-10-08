@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+.ll{
+    font-size: 1rem;
+}
+.lb{
+    font-size: 0.75rem;
+}
+.arrow{
+    font-size: 2rem;
+    i{
+        .left{
+            margin-left: 2px;
+        }
+    }
+}

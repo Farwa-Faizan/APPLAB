@@ -1,0 +1,12 @@
+@use '../custom' as *;
+
+.services{
+    .why{
+        color: $blue;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}

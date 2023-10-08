@@ -1,0 +1,28 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.pnk{
+    color: $piink;
+}
+.blue{
+    color: $purple-light;
+}
+.green{
+    color: $greeen;
+}
+.icoon{
+    padding-left: 3rem;
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+    .icon .row p {
+        font-family: "Poppins", sans-serif;
+        font-size: 0.8rem;
+    }
+.awsome{
+    &--pic{
+        max-width: 100%;
+    }
+}
